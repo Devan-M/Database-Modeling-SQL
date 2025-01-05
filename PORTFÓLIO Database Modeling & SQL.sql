@@ -58,32 +58,32 @@ INSERT INTO tbl_alunos
 INSERT INTO tbl_disciplinas 
 	VALUES
 		('DB', 'DATABASE MODELLING', '100:00:00'), 
-        ('AGL', 'AGILE METHODS', '90:00:00'),
-        ('CPP', 'COMPUTATIONAL LOGIC USING PYTHON', '50:00:00'),
-        ('ESG', 'ESG: SUSTENTABILIDADE DAS ORGANIZAÇÕES', '80:00:00');
+        	('AGL', 'AGILE METHODS', '90:00:00'),
+       		('CPP', 'COMPUTATIONAL LOGIC USING PYTHON', '50:00:00'),
+        	('ESG', 'ESG: SUSTENTABILIDADE DAS ORGANIZAÇÕES', '80:00:00');
 
 INSERT INTO tbl_professores 
 	VALUES
 		(251099, 'LEONID', 'RUA MANAÍRA', 'JOÃO PESSOA'),
-        (149988, 'VICTOR', 'AVENIDA SALGADO FILHO', 'NATAL'), 
-        (105298, 'LIGIA', 'AVENIDA ROBERTO FREIRE', 'NATAL');
+	        (149988, 'VICTOR', 'AVENIDA SALGADO FILHO', 'NATAL'), 
+	        (105298, 'LIGIA', 'AVENIDA ROBERTO FREIRE', 'NATAL');
 
 INSERT INTO tbl_turma 
 	VALUES
 		('DB', 1, 251099, 2023, '09H-10H'),
-        ('DB', 2, 251099, 2023, '13H-14H'),
-        ('AGL', 1, 105298, 2023, '08H-09H'), 
-        ('CPP', 1, 105298, 2023, '07H-08H'),
-        ('ESG', 1, 149988, 2023, '10H-11H');
+	        ('DB', 2, 251099, 2023, '13H-14H'),
+	        ('AGL', 1, 105298, 2023, '08H-09H'), 
+	        ('CPP', 1, 105298, 2023, '07H-08H'),
+	        ('ESG', 1, 149988, 2023, '10H-11H');
 
 INSERT INTO tbl_historico 
 	VALUES
 		(2023010101, 'DB', 1, 251099, 2023, 10, 5.74),
-        (2023010102, 'AGL', 1, 105298, 2023, 4, 10), 
-        (2023010103, 'CPP', 1, 105298, 2023, 5, 5),
-        (2023010104, 'ESG',1, 149988, 2023, 5, 6.2), 
-        (2023010105, 'DB', 2, 251099, 2023, 4, 4.5),
-        (2023010106, 'CPP', 1, 105298, 2023, 8, 5.5);
+	        (2023010102, 'AGL', 1, 105298, 2023, 4, 10), 
+	        (2023010103, 'CPP', 1, 105298, 2023, 5, 5),
+	        (2023010104, 'ESG',1, 149988, 2023, 5, 6.2), 
+	        (2023010105, 'DB', 2, 251099, 2023, 4, 4.5),
+	        (2023010106, 'CPP', 1, 105298, 2023, 8, 5.5);
         
 SELECT * FROM universidade.tbl_alunos;
 SELECT * FROM universidade.tbl_disciplinas;
